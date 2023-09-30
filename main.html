@@ -4,61 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo-Classes Example</title>
-    <style>
-        :root {
-            background-color: rgb(135, 206, 235);
-        }
-
-        p:first-child {
-            color: white;
-            background-color: black;
-        }
-
-        p:nth-child(2) {
-            /* Standard text color (you can specify it here) */
-        }
-
-        p:last-child {
-            color: red;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            background-color: gray;
-            padding: 10px;
-            width: 50%;
-        }
-
-        li:nth-child(odd) {
-            background-color: white;
-        }
-
-        li:first-child,
-        li:last-child {
-            font-size: 22px;
-        }
-
-        li:nth-last-child(3) {
-            background-color: pink;
-        }
-    </style>
 </head>
 <body>
     <article>
-        <p>First paragraph.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero in dolor dignissim feugiat. Fusce ut nisl nec arcu sagittis eleifend in nec nisi. Praesent varius lacinia erat, vel tempus risus aliquam vel. Duis id neque eu metus aliquam luctus. Vivamus lacinia odio id eleifend. Sed ultricies ac enim vitae varius.</p>
-        <p>This is the third paragraph.</p>
+        <p>First paragraph...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero in dolor dignissim feugiat. Fusce<br><br> ut nisl nec arcu sagittis eleifend in nec nisi. Praesent varius lacinia erat, vel tempus risus aliquam vel. Duis</p>
+        <p>id neque eu metus aliquam luctus. Vivamus lacinia odio id eleifend. Sed ultricies ac enim vitae varius.This is the.</p>
     </article>
     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
     </ul>
 </body>
 </html>
