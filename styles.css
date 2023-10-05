@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-        :root{
+       :root{
             background: rgb(135, 206, 235);
 			margin:-7px;
 			
@@ -27,6 +27,7 @@
         ul {
             list-style-type: none;
             padding: 0;
+			margin-left:30px
         }
 
         li {
